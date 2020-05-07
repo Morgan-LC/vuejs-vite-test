@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<p>Nba player</p>
-		<button @click="getPlayers()">Get Info</button>
+		<button class="border-solid border-4 border-blue-500" @click="getPlayers()">Get Info</button>
 		<div v-for="data in playerInfos.data">{{data}}</div>
 	</div>
 </template>
@@ -24,9 +24,6 @@ export default {
 <style lang="scss" scoped>
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	button {
-		border: 1px solid Blue;
-		margin: 0 1rem;
-	}
 }
+
 </style>

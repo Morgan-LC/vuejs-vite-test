@@ -1,7 +1,6 @@
 <template>
 	<div>
 		<Presentation />
-		<p>Welcome</p>
 	</div>
 </template>
 

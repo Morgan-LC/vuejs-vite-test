@@ -1,5 +1,5 @@
 <template>
-	<h1>Welcome to Morgan Vite test app</h1>
+	<h1 class="mx-auto text-center">Welcome to Morgan Vite test app with tailwindcss</h1>
 </template>
 
 <script>
@@ -11,6 +11,7 @@ export default {
 <style scoped>
 h1 {
 	color: #4fc08d;
+	font-size: 3rem;
 }
 
 h1,
