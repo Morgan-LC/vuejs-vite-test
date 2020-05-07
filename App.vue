@@ -1,11 +1,14 @@
 <template>
-	<div>
+	<div class="bg-gray-100 h-screen h-100">
 		<nav class="bg-gray-800">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="flex items-center justify-between h-16">
 					<div class="flex items-center">
 						<div class="flex-shrink-0">
-							<img class="h-auto w-10" src="/img/logos/logo_nba.png" alt="Nba logo" />
+							<router-link to="/">
+								<img class="h-auto w-10" src="/img/logos/logo_nba.png" alt="Nba logo" />
+							</router-link>
+							
 						</div>
 						<div class="hidden md:block">
 							<div class="ml-10 flex items-baseline">
@@ -94,7 +97,7 @@
 				<h1 class="text-3xl font-bold leading-tight text-gray-900">{{ $route.meta.title }}</h1>
 			</div>
 		</header>
-		<div class="container mx-auto my-10">
+		<div class="container mx-auto my-10 bg-grey-1">
 			<router-view />
 		</div>
 	</div>
