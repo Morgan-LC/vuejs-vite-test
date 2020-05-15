@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../Views/Home.vue';
-import Counter from '../Views/Counter.vue';
-import Players from '../Views/Players.vue';
+import Home from '../views/Home.vue';
+import Counter from '../views/Counter.vue';
+import Players from '../views/Players.vue';
 
 const routerHistory = createWebHistory()
 
-const router = createRouter({
+export const router = createRouter({
 	history: routerHistory,
 	routes: [
 		{
@@ -25,4 +25,3 @@ const router = createRouter({
 		}
 	]
 })
-export default router;
